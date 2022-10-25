@@ -1,9 +1,10 @@
-import ParticlesBackground from "./components/ParticlesBackground";
+import Particles from "./components/Particles";
+
 
 function App() {
     return (
         <div>
-        <ParticlesBackground />
+        <Particles id="tsparticles" />
         </div>
     )
 }
