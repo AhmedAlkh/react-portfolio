@@ -9,7 +9,7 @@ const ParticlesComponent = (props) => {
         // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
         return {
             background: {
-                color: "#0d1640" // set background color
+                color: "#010f54" // set background color
             },
             fullScreen: {
                 enable: true, // enabling this will make the canvas fill the entire screen, its enabled by default
@@ -31,30 +31,30 @@ const ParticlesComponent = (props) => {
                         quantity: 10, // number of particles to add on click
                     },
                     repulse: {
-                        distance: 80, // the distance of the particles from the cursor
+                        distance: 100, // the distance of the particles from the cursor
                     }
                 }
             },
             particles: {
                 color: {
-                    value: "#378d9e" // color of particles
+                    value: ["#C7E6E3", "#02ddfa", "#439A86", "#BF1363"] // color of particles
                 },
                 links: {
                     enable: true, // enabling this will make particles linktogether
-                    distance: 100, // max distance for linking the particles
+                    distance: 150, // max distance for linking the particles
                     color: {
-                        value: "#378d9e" // color of links
+                        value: "#A8DCD1" // color of links
                     }
                 },
                 move: {
                     enable: true, // enabling this allows the particles to move
-                    speed: {min: 1, max: 3} // randomize the speed of the particles
+                    speed: {min: 1, max: 2.5} // randomize the speed of the particles
                 },
                 opacity: {
                     value: {min: 0.3, max: 0.7} // randomize the opacity of the particles creating a semitransparent effect.
                 },
                 size: {
-                    value: { min :1, max: 3} // randomize the size of the particles
+                    value: { min :1, max: 8} // randomize the size of the particles
                 }
             },
         };
