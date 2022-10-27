@@ -4,6 +4,10 @@
 - Change title that appears in tab
 - Add favicon
 - Animated background (COMPLETE!)
+- Header/ Nav bar
+- Nav bar includes buttons for home, about me, projects, contact.
+- Footer
+- Footer includes © 2022 All Right Reserved.
 
 ## Portfolio must include
 - Home/ Intro page
