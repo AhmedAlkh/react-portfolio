@@ -13,7 +13,7 @@ const ParticlesComponent = (props) => {
             },
             fullScreen: {
                 enable: true, // enabling this will make the canvas fill the entire screen, its enabled by default
-                zIndex: 0, // this is the z-index value used when the fullScreen is enabled, its a 0 by default
+                zIndex: -99, // this is the z-index value used when the fullScreen is enabled, its a 0 by default
             },
             interactivity: {
                 events: {
