@@ -1,13 +1,10 @@
 import React from "react";
-import { CFooter } from '@coreui/react'
 
 function Footer() {
     return (
-        <CFooter>
-  <div>
-    <h3 className="footerText">© 2022 All Right Reserved.</h3>
+  <div className="footerDiv">
+    <h5 className="footerText">© 2022 All Right Reserved.</h5>
   </div>
-</CFooter>
     )
 }
 

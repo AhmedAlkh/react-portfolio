@@ -48,7 +48,7 @@ const ParticlesComponent = (props) => {
                 },
                 move: {
                     enable: true, // enabling this allows the particles to move
-                    speed: {min: 1, max: 1} // randomize the speed of the particles
+                    speed: {min: 1, max: 2.5} // randomize the speed of the particles
                 },
                 opacity: {
                     value: {min: 0.3, max: 0.7} // randomize the opacity of the particles creating a semitransparent effect.
