@@ -1,6 +1,7 @@
 /* ----------------- Navbar ---------------- */
 
 a.navbar-brand {
+    font-family: 'Roboto', sans-serif;
     font-size: 175%;
     color: rgb(193, 210, 214);
     transition: transform .2s; /* Animation for zoom in effect */
@@ -8,7 +9,7 @@ a.navbar-brand {
 
 a.navbar-brand:hover {
     color: #12E6ED;
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 button.navbar-toggler {
@@ -18,10 +19,11 @@ button.navbar-toggler {
 
 button.navbar-toggler:hover {
     background-color: green;
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 a.nav-link {
+    font-family: 'Roboto', sans-serif;
     font-size: 120%;
     color: rgb(193, 210, 214);
     display: inline-block;
@@ -54,5 +56,6 @@ a.nav-link:hover, a.nav-link:focus, a.nav-link:active{
 }
 
 .footerText {
+    font-family: 'Roboto', sans-serif;
     color: rgb(193, 210, 214);
 }
