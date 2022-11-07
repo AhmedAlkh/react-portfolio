@@ -7,9 +7,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function NavBar() {
     return (
-        <Navbar bg="light" expand="lg">
+        // Remove light class to enable css styling for background color
+        <Navbar expand="lg"> 
         <Container>
-          <Navbar.Brand href="#home" className="navTitle">Ahmed's Portfolio</Navbar.Brand>
+          <Navbar.Brand href="#home">Ahmed's Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
