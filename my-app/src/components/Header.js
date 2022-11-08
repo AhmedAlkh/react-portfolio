@@ -1,9 +1,13 @@
 import React from "react";
 import NavBar from "./Navbar";
 
-function Header() {
+function Header(props) {
+    const { currentSection, setCurrentSection } = props;
+
     return (
-        <NavBar />
+        <header>
+            <NavBar currentSection={currentSection} setCurrentSection={setCurrentSection}></NavBar>
+        </header>
     )
 }
 
