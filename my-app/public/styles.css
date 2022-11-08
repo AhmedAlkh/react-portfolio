@@ -8,7 +8,7 @@ a.navbar-brand {
 }
 
 a.navbar-brand:hover {
-    color: #12E6ED;
+    color: #BF1363;
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -18,7 +18,7 @@ button.navbar-toggler {
 }
 
 button.navbar-toggler:hover {
-    background-color: green;
+    background-color: #BF1363;
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -40,9 +40,18 @@ a.nav-link {
 }
 
 a.nav-link:hover, a.nav-link:focus, a.nav-link:active{
-    color: green;
+    color: #BF1363;
     -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
+}
+
+div.container {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    justify-content: space-between;
 }
 
 /* ----------------- Footer ---------------- */
