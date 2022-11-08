@@ -1,5 +1,9 @@
 /* ----------------- Navbar ---------------- */
 
+nav.navbar.navbar-expand-lg.navbar-light {
+    position: sticky; top: 0;
+}
+
 a.navbar-brand {
     font-family: 'Roboto', sans-serif;
     font-size: 175%;
@@ -50,9 +54,15 @@ div.container {
     margin-right: 0%;
 }
 
-nav.navbar.navbar-expand-lg.navbar-light {
-    justify-content: space-between;
-}
+/* ----------------- About ---------------- */
+
+/* .about-container {
+    background-color: #010f54;
+    margin: 20% auto;
+    height: 500px;
+    width: 80%;
+    border-radius: 15%;
+} */
 
 /* ----------------- Footer ---------------- */
 

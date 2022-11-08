@@ -1,5 +1,10 @@
-// import React from "react";
+import React from "react";
 
-function About() {}
+function About() {
+    return (
+        <section id="about">
+        </section>
+    )
+}
 
 export default About;

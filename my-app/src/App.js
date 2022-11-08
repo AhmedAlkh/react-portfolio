@@ -8,14 +8,14 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <div>
+        <main>
         <Particles id="tsparticles" />
         <Navbar />
         <About />
         <Projects />
         <Contact />
         <Footer />
-        </div>
+        </main>
     )
 }
 
