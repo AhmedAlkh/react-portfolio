@@ -9,7 +9,8 @@ function NavBar(props) {
   const { currentSection, setCurrentSection } = props;
 
     return (
-        <Navbar expand="lg"> 
+      // removing expand lg from navbar will remove the button if I cant get it styled properly
+        <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="about">Ahmed's Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

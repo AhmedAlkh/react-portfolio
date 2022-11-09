@@ -18,12 +18,16 @@ body::after {
 }
 /* part 1 and 2 of styling to keep footer at bottom of page */
 
-/* ----------------- Navbar ---------------- */
+/* ----------------- Header ---------------- */
 
-nav.navbar.navbar-expand-lg.navbar-light {
-  position: sticky;
-  top: 0;
+/* This may need to be changed later if header is going through other elements, Z index?? */
+header {
+    position: sticky; 
+    top: 0;
+    z-index: 100;
 }
+
+/* ----------------- Navbar ---------------- */
 
 a.navbar-brand {
   font-size: 175%;
