@@ -3,7 +3,7 @@ import Particles from "./components/Particles";
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Projects from "./components/Projects";
+import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
@@ -13,8 +13,8 @@ function App() {
         switch (currentSection) {
             case 'about':
                 return <About />;
-            case 'projects':
-                return <Projects />;
+            case 'portfolio':
+                return <Portfolio />;
             case 'contact':
                 return <Contact />;
             case 'resume':
