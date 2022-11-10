@@ -98,10 +98,10 @@ function Portfolio() {
 	return (
 		<section>
 			<div className="center">
-				<h1>Projects</h1>
+				<h1 className="portfolio-title">Projects</h1>
 			</div>
-			<div>
-				<ul className="flex-row mobile-row">
+			<div className="portfolio-container">
+				<ul>
 					<li className="card-padding">
 						<Project projects={projects[0]}></Project>
 					</li>
@@ -109,7 +109,7 @@ function Portfolio() {
 						<Project projects={projects[1]}></Project>
 					</li>
 				</ul>
-				<ul className="flex-row mobile-row">
+				<ul>
 					<li className="card-padding">
 						<Project projects={projects[2]}></Project>
 					</li>
@@ -117,7 +117,7 @@ function Portfolio() {
 						<Project projects={projects[3]}></Project>
 					</li>
 				</ul>
-				<ul className="flex-row mobile-row">
+				<ul>
 					<li className="card-padding">
 						<Project projects={projects[4]}></Project>
 					</li>
@@ -131,3 +131,5 @@ function Portfolio() {
 }
 
 export default Portfolio;
+
+// this was removed from the three ul opening tags: className="flex-row mobile-row"

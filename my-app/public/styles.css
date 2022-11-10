@@ -111,6 +111,50 @@ div.container {
   width: 25%;
 }
 
+/* ----------------- Portfolio ---------------- */
+
+.portfolio-title {
+    text-align: center;
+    color: rgb(193, 210, 214);
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-padding {
+	padding: 50px;
+}
+
+.card-body {
+    background-color: #010f54;
+    border: none;
+}
+
+.card {
+    border: 0;
+}
+
+.card-image {
+    width: "80%";
+    height: "100px";
+    align-items: center;
+}
+
+.card-title, .card-text, .card-subtitle {
+    color: rgb(193, 210, 214);
+}
+
+/* .portfolio-container {
+
+} */
+
 /* ----------------- Footer ---------------- */
 
 /* part 3 of styling to keep footer at bottom of page */
@@ -130,6 +174,5 @@ footer {
 }
 
 .footerText {
-  font-family: "Roboto", sans-serif;
   color: rgb(193, 210, 214);
 }

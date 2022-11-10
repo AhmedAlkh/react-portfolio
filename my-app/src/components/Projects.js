@@ -26,18 +26,17 @@ function Project(props) {
 	}
 
 	return (
-		<Card style={{ width: "20rem", border: "2px solid navy"}}>
+		<Card style={{ width: "20rem"}}>
 			<div className="center">
 				<Card.Body>
-					<Card.Title style={{border: "1px solid navy"}}>{projectName}</Card.Title>
+					<Card.Title>{projectName}</Card.Title>
                     <Card.Img 
                         variant="top"
 				        src={require(`../assets/screenshots/${screenShot}`)}
 				        className="card-image"
-                        style={{ width: "300px", height: "150px"}}
 			        />
 					<Card.Text>{description}</Card.Text>
-					<Card.Subtitle>Technologies</Card.Subtitle>
+					<Card.Subtitle>Technologies used:</Card.Subtitle>
 					<Card.Text>{getTechUsed(techUsed)}</Card.Text>
 					<Card.Link href={appLink} target="_blank" className="card-link">
 						Deployed App Link
