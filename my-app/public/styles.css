@@ -123,37 +123,17 @@ div.container {
 	justify-content: center;
 }
 
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
+/* ----------------- Carousel ---------------- */
+
+.portfolio-container {
+  align-items: center;
 }
 
-.card-padding {
-	padding: 50px;
+.carousel-style {
+    width: 80%;
+    height: 400px;
+    background-color: #373940;
 }
-
-.card-body {
-    background-color: #010f54;
-    border: none;
-}
-
-.card {
-    border: 0;
-}
-
-.card-image {
-    width: "80%";
-    height: "100px";
-    align-items: center;
-}
-
-.card-title, .card-text, .card-subtitle {
-    color: rgb(193, 210, 214);
-}
-
-/* .portfolio-container {
-
-} */
 
 /* ----------------- Footer ---------------- */
 

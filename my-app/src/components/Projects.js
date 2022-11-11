@@ -1,54 +1,50 @@
-import React, { useState } from "react";
-import Card from "react-bootstrap/Card";
+import React from "react";
+import Carousel from "react-bootstrap/Carousel";
 
 function Project(props) {
-	const currentProject = useState(props)[0].projects;
+  const currentProject = props.projects;
+  const screenShot = currentProject.screenShot;
+  const projectName = currentProject.projectName;
+  const description = currentProject.description;
+  const techUsed = currentProject.techUsed;
+  const appLink = currentProject.appLink;
+  const ghLink = currentProject.ghLink;
 
-    const screenShot = currentProject.screenShot;
-	const projectName = currentProject.projectName;
-	const description = currentProject.description;
-	const techUsed = currentProject.techUsed;
-	const appLink = currentProject.appLink;
-	const ghLink = currentProject.ghLink;
+  function getTechUsed(techArray) {
+    let techList = "";
 
-	function getTechUsed(techArray) {
-		let techList = "";
+    for (var i = 0; i < techArray.length; i++) {
+      if (i === techArray.length - 1) {
+        techList += techArray[i];
+      } else {
+        techList += techArray[i] + ", ";
+      }
+    }
 
-		for (var i = 0; i < techArray.length; i++) {
-			if (i === techArray.length - 1) {
-				techList += techArray[i];
-			} else {
-				techList += techArray[i] + ", ";
-			}
-		}
+    return techList;
+  }
 
-		return techList;
-	}
-
-	return (
-		<Card style={{ width: "20rem"}}>
-			<div className="center">
-				<Card.Body>
-					<Card.Title>{projectName}</Card.Title>
-                    <Card.Img 
-                        variant="top"
-				        src={require(`../assets/screenshots/${screenShot}`)}
-				        className="card-image"
-			        />
-					<Card.Text>{description}</Card.Text>
-					<Card.Subtitle>Technologies used:</Card.Subtitle>
-					<Card.Text>{getTechUsed(techUsed)}</Card.Text>
-					<Card.Link href={appLink} target="_blank" className="card-link">
-						Deployed App Link
-					</Card.Link>
-					<br></br>
-					<Card.Link href={ghLink} target="_blank" className="card-link">
-						GitHub Repo Link
-					</Card.Link>
-				</Card.Body>
-			</div>
-		</Card>
-	);
+  return (
+    <>
+      <img
+        className="d-block carousel-style"
+        src={require(`../assets/screenshots/${screenShot}`)}
+        alt={projectName}
+      />
+      <Carousel.Caption>
+        <h3>{projectName}</h3>
+        <p>{description}</p>
+        <p>{getTechUsed(techUsed)}</p>
+        <a href={appLink} target="_blank" rel="noreferrer">
+          Deployed App Link
+        </a>
+        <br></br>
+        <a href={ghLink} target="_blank" rel="noreferrer">
+          GitHub Repo Link
+        </a>
+      </Carousel.Caption>
+    </>
+  );
 }
 
 export default Project;
