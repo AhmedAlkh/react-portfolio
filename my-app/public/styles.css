@@ -125,17 +125,29 @@ div.container {
 
 /* ----------------- Carousel ---------------- */
 
-div.carousel-inner {
-  justify-content: center;
+.carousel-container {
+  background-color: red;
+  height: 600px;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #010f54;
+  border-radius: 20%;
 }
 
 .carousel-style {
-    width: 80%;
-    height: 400px;
+    width: 75%;
+    height: 500px;
+    margin: auto;
 }
 
 .info-container {
-  background-color: #010f54
+  background-color: #010f54;
+  border-radius: 30%;
 }
 
 .app-link, .gh-link {

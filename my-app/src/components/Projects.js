@@ -27,17 +27,20 @@ function Project(props) {
 
   return (
     <>
+	<div className="img-container">
       <img
         className="d-block carousel-style"
         src={require(`../assets/screenshots/${screenShot}`)}
         alt={projectName}
       />
+	  </div>
       <Carousel.Caption>
 	  	<div className="info-container">
         	<h3>{projectName}</h3>
         	<p>{description}</p>
         	<p>{getTechUsed(techUsed)}</p>
 		</div>
+	<div className="btn-container">
         <Button variant="outline-info" className="app-link" href={appLink} target="_blank" rel="noreferrer">
           Deployed App
         </Button>
@@ -45,6 +48,7 @@ function Project(props) {
         <Button variant="outline-info" className="gh-link" href={ghLink} target="_blank" rel="noreferrer">
           GitHub Repo
         </Button>
+		</div>
       </Carousel.Caption>
     </>
   );
