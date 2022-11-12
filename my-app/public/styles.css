@@ -125,14 +125,21 @@ div.container {
 
 /* ----------------- Carousel ---------------- */
 
-.portfolio-container {
-  align-items: center;
+div.carousel-inner {
+  justify-content: center;
 }
 
 .carousel-style {
     width: 80%;
     height: 400px;
-    background-color: #373940;
+}
+
+.info-container {
+  background-color: #010f54
+}
+
+.app-link, .gh-link {
+  width: 130px;
 }
 
 /* ----------------- Footer ---------------- */

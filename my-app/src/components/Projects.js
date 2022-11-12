@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import Button from 'react-bootstrap/Button';
 
 function Project(props) {
   const currentProject = props.projects;
@@ -32,16 +33,18 @@ function Project(props) {
         alt={projectName}
       />
       <Carousel.Caption>
-        <h3>{projectName}</h3>
-        <p>{description}</p>
-        <p>{getTechUsed(techUsed)}</p>
-        <a href={appLink} target="_blank" rel="noreferrer">
-          Deployed App Link
-        </a>
-        <br></br>
-        <a href={ghLink} target="_blank" rel="noreferrer">
-          GitHub Repo Link
-        </a>
+	  	<div className="info-container">
+        	<h3>{projectName}</h3>
+        	<p>{description}</p>
+        	<p>{getTechUsed(techUsed)}</p>
+		</div>
+        <Button variant="outline-info" className="app-link" href={appLink} target="_blank" rel="noreferrer">
+          Deployed App
+        </Button>
+		<br></br>
+        <Button variant="outline-info" className="gh-link" href={ghLink} target="_blank" rel="noreferrer">
+          GitHub Repo
+        </Button>
       </Carousel.Caption>
     </>
   );
