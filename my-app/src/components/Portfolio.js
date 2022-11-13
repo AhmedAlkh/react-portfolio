@@ -92,10 +92,10 @@ function Portfolio() {
 
   return (
     <section>
-      <div className="center">
+      {/* <div className="center"> */}
         <h1 className="portfolio-title">Projects</h1>
-      </div>
-	  
+      {/* </div> */}
+
 	  <div className="carousel-container">
         <Carousel slide>
           {projects.map((project) => {

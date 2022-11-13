@@ -5,9 +5,9 @@
 - Fix sticky header to not go through elements, move button further to right of screen.
 - Fix footer on portfolio page to keep it position on the bottom
 - ~~~~~~ CAROUSEL ~~~~~~~
-- Centre screenshot to better expose arrows on left and right
-- change colour of text 
-- Wrap link and prev/next buttons in boxes to make them more visible
+- Take better screenshots that are not blurry! follow website link and get new screenies
+- ~~~~~~ CONTACT ~~~~~~~
+- Whole contact form needs styling
 
 ## Portfolio must include
 - About me page

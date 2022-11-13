@@ -98,7 +98,7 @@ div.container {
 .about-text {
   background-color: #010f54;
   padding: 3%;
-  border-radius: 15%;
+  border-radius: 15px 50px; 
 }
 
 .picture-container {
@@ -125,17 +125,17 @@ div.container {
 
 /* ----------------- Carousel ---------------- */
 
-.carousel-container {
+/* .carousel-container {
   background-color: red;
   height: 600px;
-}
+} */
 
 .img-container {
   text-align: center;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-  background-color: #010f54;
+  background-color: #bf1363;
   border-radius: 20%;
 }
 
@@ -143,16 +143,55 @@ div.container {
     width: 75%;
     height: 500px;
     margin: auto;
+    border-radius: 15px 50px; 
 }
 
 .info-container {
   background-color: #010f54;
-  border-radius: 30%;
+  border-radius: 15px 50px; 
+  padding: 2%;
+  color: rgb(193, 210, 214);
+  margin: 0;
 }
 
 .app-link, .gh-link {
   width: 130px;
+  margin-top: 5px;
+  transition: transform 0.2s!important; /* Animation for zoom in effect */
 }
+
+.app-link:hover {
+  background-color: #bf1363!important;
+  transform: scale(
+    1.1
+  )!important;
+}
+
+.gh-link:hover {
+  background-color: #bf1363!important;
+  transform: scale(
+    1.1
+  )!important;
+}
+
+.btn, .btn-primary {
+  background-color: #010f54!important;
+  color: rgb(193, 210, 214)!important;
+  border: none!important;
+}
+
+div .carousel-indicators {
+  margin: 0 35% 0 35%;
+}
+
+.carousel-indicators{
+  background-color: #010f54;
+  border-radius: 25px 25px 0px 0px;
+}
+
+/* ----------------- Contact ---------------- */
+
+
 
 /* ----------------- Footer ---------------- */
 
