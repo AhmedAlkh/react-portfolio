@@ -193,6 +193,57 @@ div .carousel-indicators {
 
 
 
+/* ----------------- Resume ---------------- */
+
+.resume-page {
+  font-family: "Roboto", sans-serif;
+  color: rgb(193, 210, 214);
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.resume-btn {
+  width: 170px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: transform 0.2s!important; /* Animation for zoom in effect */
+}
+
+.resume-btn:hover {
+  background-color: #bf1363!important;
+  transform: scale(
+    1.1
+  )!important;
+}
+
+.resume-screenshots {
+  text-align: center;
+}
+
+.resume {
+  width: 70%;
+}
+
+.centering-cont {
+  text-align: center;
+}
+
+.skills-container {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #010f54;
+  display: inline-block;
+  width: 70%;
+  border-radius: 25px;
+}
+
+.skills-title {
+  display: flex;
+	justify-content: center;
+}
+
 /* ----------------- Footer ---------------- */
 
 /* part 3 of styling to keep footer at bottom of page */
