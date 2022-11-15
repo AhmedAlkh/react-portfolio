@@ -33,12 +33,12 @@ function Resume() {
       <div className="skills-container">
         <h3 className="skills-title">Skills</h3>
         <hr></hr>
-        <ul>
-          <li>Front-End: HTML/CSS/JavaScript/Bootstrap/React</li>
-          <li>Back-End: APIs/Node/Express/MVC/PWA</li>
-          <li>Dev Tools: Github/NPM/Webpack</li>
-          <li>Database: MySQL/NoSQL/MongoDB/GraphQL</li>
-        </ul>
+        <div className="skills-list">
+          <p>Front-End: HTML/CSS/JavaScript/Bootstrap/React</p>
+          <p>Back-End: APIs/Node/Express/MVC/PWA</p>
+          <p>Dev Tools: Github/NPM/Webpack</p>
+          <p>Database: MySQL/NoSQL/MongoDB/GraphQL</p>
+        </div>
       </div>
       </div>
     </section>
