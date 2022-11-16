@@ -3,7 +3,7 @@
 ## To Do List
 - ~~~~~~ GENERAL ~~~~~~~
 - Fix sticky header to not go through elements, move button further to right of screen.
-- Fix footer on portfolio page to keep it position on the bottom
+- Fix footer on portfolio and contact page to keep it positioned on the bottom
 - ~~~~~~ CAROUSEL ~~~~~~~
 - Take better screenshots that are not blurry! follow website link and get new screenies
 - ~~~~~~ CONTACT ~~~~~~~

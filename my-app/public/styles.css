@@ -191,7 +191,18 @@ div .carousel-indicators {
 
 /* ----------------- Contact ---------------- */
 
+.contact-container {
+  text-align: center;
+  color: rgb(193, 210, 214);
+}
 
+.contact-form {
+  text-align: center;
+  background-color: #010f54;
+  border-radius: 25px 25px 0px 0px;
+  width: 60%;
+  margin: 0;
+}
 
 /* ----------------- Resume ---------------- */
 
