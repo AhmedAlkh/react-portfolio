@@ -197,11 +197,34 @@ div .carousel-indicators {
 }
 
 .contact-form {
-  text-align: center;
+  display: inline-block;
   background-color: #010f54;
-  border-radius: 25px 25px 0px 0px;
+  border-radius: 25px;
   width: 60%;
   margin: 0;
+}
+
+.input-field {
+  border-radius: 25px;
+  border-style: none;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+}
+
+.contact-btn {
+  background-color: aqua!important; /* This needs to be changed to a better colour */
+  width: 90px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: transform 0.2s!important; /* Animation for zoom in effect */
+}
+
+.contact-btn:hover {
+  background-color: #bf1363!important;
+  transform: scale(
+    1.1
+  )!important;
 }
 
 /* ----------------- Resume ---------------- */

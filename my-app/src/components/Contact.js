@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from '../utils/helpers'
+import Button from 'react-bootstrap/Button';
 
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -37,27 +38,30 @@ function Contact() {
     return (
       <section className="contact-container">
         <h1>Contact me</h1>
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <div className="contact-form">
+        <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="name">Name:</label><br></br>
-            <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+            <label htmlFor="name">Name:</label>
+            <input className="input-field" type="text" name="name" defaultValue={name} onBlur={handleChange} />
           </div>
           <div>
             <label htmlFor="email">Email address:</label>
-            <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+            <input className="input-field" type="email" name="email" defaultValue={email} onBlur={handleChange} />
           </div>
           <div>
             <label htmlFor="message">Message:</label>
-            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+            <textarea className="input-field" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
           </div>
           {errorMessage && (
             <div>
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button data-testid="button" type="submit">Submit</button>
+          <Button className="contact-btn" data-testid="button" type="submit">Submit</Button>
         </form>
+        </div>
       </section>
+      
     );
 }
 
