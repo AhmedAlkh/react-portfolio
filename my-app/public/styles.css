@@ -16,6 +16,7 @@ body::after {
   display: block;
   height: 50px;
 }
+
 /* part 1 and 2 of styling to keep footer at bottom of page */
 
 /* ----------------- Header ---------------- */
@@ -25,6 +26,7 @@ header {
     position: sticky; 
     top: 0;
     z-index: 100;
+    background-color: #010f54;
 }
 
 /* ----------------- Navbar ---------------- */
@@ -80,14 +82,14 @@ a.nav-link:active {
 
 div.container {
   margin-left: 0%;
-  margin-right: 0%;
+  margin-right: 0%!important; 
 }
 
 /* ----------------- About ---------------- */
 
 .about-container {
   color: rgb(193, 210, 214);
-  margin: 20% auto;
+  margin: 50px auto;
   width: 80%;
 }
 
@@ -99,6 +101,7 @@ div.container {
   background-color: #010f54;
   padding: 3%;
   border-radius: 15px 50px; 
+  margin-bottom: 130px;
 }
 
 .picture-container {
@@ -110,6 +113,7 @@ div.container {
   border-radius: 15%;
   width: 25%;
 }
+
 
 /* ----------------- Portfolio ---------------- */
 
@@ -175,7 +179,7 @@ div.container {
 }
 
 .btn, .btn-primary {
-  background-color: #010f54!important;
+  background-color: #133dec!important;
   color: rgb(193, 210, 214)!important;
   border: none!important;
 }
@@ -232,6 +236,10 @@ div .carousel-indicators {
 .resume-page {
   font-family: "Roboto", sans-serif;
   color: rgb(193, 210, 214);
+}
+
+.resume-title {
+  margin-top: 50px;
 }
 
 .btn-div {

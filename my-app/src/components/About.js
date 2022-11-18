@@ -3,6 +3,7 @@ import photo from "../assets/pictures/selfie1.jpeg"
 
 function About() {
     return (
+      <div>
         <section className="about-container">
       <h1 className="about-title">Ahmed Alkhatib</h1>
       <div className="picture-container">
@@ -23,6 +24,7 @@ function About() {
       </p>
       </div>
     </section>
+    </div>
     )
 }
 

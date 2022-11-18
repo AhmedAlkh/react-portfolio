@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 function Resume() {
   return (
     <section className="resume-page">
-      <div className="center">
+      <div className="center resume-title">
         <h1>Resume</h1>
       </div>
       <div className="btn-div">

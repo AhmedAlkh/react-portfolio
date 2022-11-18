@@ -15,7 +15,7 @@ function NavBar(props) {
           <Navbar.Brand href="about">Ahmed's Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            <Nav>
             <Nav.Link className={currentSection === 'about'}>
               <span onClick={() => setCurrentSection('about')}>About Me</span>
             </Nav.Link>
