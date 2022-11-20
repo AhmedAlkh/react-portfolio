@@ -2,14 +2,21 @@
 
 ## To Do List
 - ~~~~~~ GENERAL ~~~~~~~
-- Fix sticky header to not go through elements, move button further to right of screen.
-- Strange behaviour with heading, as the drop down opens the whole page shifts down...
-- Fix footer on portfolio and contact page to keep it positioned on the bottom
+- In medium size screen, button needs to be moved futher to right in nav bar.
 - Change home route url to not say /about
-- ~~~~~~ CAROUSEL ~~~~~~~
-- Take better screenshots that are not blurry! follow website link and get new screenies
+- Add linkdin, gh, and email icons to footer
+- when option is selected from drop down nav bar, it should return to closed position?
+
 - ~~~~~~ CONTACT ~~~~~~~
-- Whole contact form needs styling
+- make sure contact form is functional
+- fix alignment of input boxes and tags
+- add margin between navbar and title
+- move footer to bottom of page
+
+- ~~~~~~ PORTFOLIO ~~~~~~~
+- Fix all styling on carousel
+- footer needs to be moved to bottom
+- Take better screenshots that are not blurry! follow website link and get new screenies
 
 ## Portfolio must include
 - About me page

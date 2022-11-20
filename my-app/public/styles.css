@@ -101,7 +101,7 @@ div.container {
   background-color: #010f54;
   padding: 3%;
   border-radius: 15px 50px; 
-  margin-bottom: 130px;
+  margin-bottom: 160px;
 }
 
 .picture-container {
@@ -130,10 +130,9 @@ div.container {
 
 /* ----------------- Carousel ---------------- */
 
-/* .carousel-container {
-  background-color: red;
-  height: 600px;
-} */
+.carousel-container {
+  margin-bottom: 325px;
+}
 
 .img-container {
   text-align: center;
@@ -203,6 +202,8 @@ div .carousel-indicators {
 .contact-container {
   text-align: center;
   color: rgb(193, 210, 214);
+  margin-top: 50px;
+  margin-bottom: 400px;
 }
 
 .contact-form {
