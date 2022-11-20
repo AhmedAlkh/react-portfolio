@@ -39,6 +39,9 @@ function Contact() {
       <section className="contact-container">
         <h1>Contact me</h1>
         <div className="contact-form">
+        <div className="contact-statement">
+        <p>Thank you for taking the time to view my portfolio, please contact me for any questions or inquiries.</p>
+        </div>
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>

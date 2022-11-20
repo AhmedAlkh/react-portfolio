@@ -16,7 +16,7 @@
 - ~~~~~~ PORTFOLIO ~~~~~~~
 - Fix all styling on carousel
 - footer needs to be moved to bottom
-- Take better screenshots that are not blurry! follow website link and get new screenies
+- Screenshots are getting blurry when the screen is smaller?
 
 ## Portfolio must include
 - About me page

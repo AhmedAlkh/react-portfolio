@@ -237,6 +237,10 @@ div .carousel-indicators {
   )!important;
 }
 
+.contact-statement {
+  margin-top: 8px;
+}
+
 /* ----------------- Resume ---------------- */
 
 .resume-page {
