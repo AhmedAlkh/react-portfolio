@@ -137,6 +137,9 @@ div.container {
 
 .img-container {
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  /* background-color: red; */
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -146,9 +149,10 @@ div.container {
 
 .carousel-style {
     width: 75%;
-    height: 500px;
+    height: 200px;
     margin: auto;
     border-radius: 15px 50px; 
+    /* margin-bottom: 100px; */
 }
 
 .info-container {
@@ -218,7 +222,7 @@ div .carousel-indicators {
 }
 
 .contact-btn {
-  background-color: aqua!important; /* This needs to be changed to a better colour */
+  background-color: #133dec!important;
   width: 90px;
   margin-top: 5px;
   margin-bottom: 5px;
