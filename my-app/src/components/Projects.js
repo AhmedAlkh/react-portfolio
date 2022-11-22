@@ -28,7 +28,7 @@ function Project(props) {
   }
 
   return (
-    <>
+    <section className="projects-section">
 	<div className="img-container">
       <img
         className="d-block carousel-style"
@@ -54,7 +54,7 @@ function Project(props) {
         </Button>
 		</div>
       </Carousel.Caption>
-    </>
+    </section>
   );
 }
 
