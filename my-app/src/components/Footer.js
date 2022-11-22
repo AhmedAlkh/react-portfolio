@@ -16,7 +16,7 @@ function Footer() {
     <FaLinkedin className="footer-icon" />
 </a>
     {/* Email link in footer  */}
-    <a href="https://github.com/AhmedAlkh" target="_blank" rel="noreferrer">
+    <a href="mailto:alkhatib_ahmed@hotmail.com" target="_blank" rel="noreferrer">
     <FaEnvelope className="footer-icon" />
     </a>
     <h5 className="footerText">© 2022 All Rights Reserved.</h5>

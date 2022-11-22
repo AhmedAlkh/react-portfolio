@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+import Button from "react-bootstrap/Button"; 
+import { FaFilePdf } from "react-icons/fa";
 
 function Resume() {
   return (
@@ -14,7 +15,7 @@ function Resume() {
           target="_blank"
           rel="noreferrer"
         >
-          <h4>Download My Resume</h4>
+          <h4>Download My Resume <FaFilePdf /></h4>
         </Button>
       </div>
       <div className="resume-screenshots">
