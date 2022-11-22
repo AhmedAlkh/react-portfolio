@@ -1,6 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button'; 
+import { FaArrowCircleRight } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 function Project(props) {
   const currentProject = props.projects;
@@ -43,10 +45,12 @@ function Project(props) {
 	<div className="btn-container">
         <Button className="app-link" href={appLink} target="_blank" rel="noreferrer">
           Deployed App
+          <FaArrowCircleRight className="btn-icon"/>
         </Button>
 		<br></br>
         <Button className="gh-link" href={ghLink} target="_blank" rel="noreferrer">
           GitHub Repo
+          <FaGithub className="btn-icon"/>
         </Button>
 		</div>
       </Carousel.Caption>

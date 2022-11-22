@@ -163,7 +163,7 @@ div.container {
 }
 
 .app-link, .gh-link {
-  width: 130px;
+  width: 150px;
   margin-top: 5px;
   transition: transform 0.2s!important; /* Animation for zoom in effect */
 }
@@ -186,6 +186,10 @@ div.container {
   background-color: #133dec!important;
   color: rgb(193, 210, 214)!important;
   border: none!important;
+}
+
+.btn-icon {
+  margin-left: 5px;
 }
 
 div .carousel-indicators {
