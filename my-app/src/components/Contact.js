@@ -94,7 +94,11 @@ function Contact() {
 
   return (
     <div className="contact-page">
+    <h1 className="contact-title">Contact me</h1>
     <div className="contact-container">
+    <div className="contact-statement">
+ <p>Thank you for taking the time to view my portfolio, please contact me for any questions or inquiries.</p>
+</div>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
@@ -102,7 +106,7 @@ function Contact() {
       <input type="email" name="user_email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input className="contact-btn" type="submit" value="Send" />
     </form>
     </div>
     </div>
