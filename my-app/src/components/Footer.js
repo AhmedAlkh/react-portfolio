@@ -19,7 +19,7 @@ function Footer() {
     <a href="mailto:alkhatib_ahmed@hotmail.com" target="_blank" rel="noreferrer">
     <FaEnvelope className="footer-icon wobble-vertical-on-hover" />
     </a>
-    <h5 className="footerText">© 2022 All Rights Reserved.</h5>
+    <h6 className="footerText">© 2022 All Rights Reserved.</h6>
   </div>
     )
 }

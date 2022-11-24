@@ -371,13 +371,14 @@ footer {
 .footer-icon {
   width: 80px; /* adjust the distince between the icons */
   color: #bf1363;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
 .footerText {
   color: rgb(193, 210, 214);
+  font-size: 14px;
 }
 
 @-webkit-keyframes wobble-vertical-on-hover {
