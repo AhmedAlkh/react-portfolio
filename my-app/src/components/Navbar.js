@@ -1,5 +1,4 @@
 import React from "react";
-// import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,9 +8,9 @@ function NavBar(props) {
   const { currentSection, setCurrentSection } = props;
 
     return (
-      // removing expand lg from navbar will remove the button if I cant get it styled properly
-        <Navbar expand="lg">
-        <Container>
+      // Changed Navbar expand="lg" to Navbar expand="md" and made it so that navbar button only appears on cellphone screen.
+        <Navbar expand="md">
+        <Container className="nav-cont">
           <Navbar.Brand href="about">Ahmed's Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
