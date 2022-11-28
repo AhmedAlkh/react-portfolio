@@ -6,9 +6,7 @@
 
 /* ----------------- Body ---------------- */
 
-/* part 1 and 2 of styling to keep footer at bottom of page */
 body {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
 }
@@ -16,14 +14,10 @@ body {
 body::after {
   content: "";
   display: block;
-  /* height: 50px; */
 }
-
-/* part 1 and 2 of styling to keep footer at bottom of page */
 
 /* ----------------- Header ---------------- */
 
-/* This may need to be changed later if header is going through other elements, Z index?? */
 header {
     position: sticky; 
     top: 0;
@@ -33,25 +27,13 @@ header {
 
 /* ----------------- Navbar ---------------- */
 
-/* .navbar navbar-expand-lg navbar-light {
-  
-} */
-
-/* .nav-cont {
-  
-} */
-
-a.navbar-brand {
-  font-size: 175%;
-  color: rgb(193, 210, 214);
-  transition: transform 0.2s; /* Animation for zoom in effect */
+.navbar-brand {
+  font-size: 175%!important;
+  color: rgb(193, 210, 214)!important;
 }
 
-a.navbar-brand:hover {
-  color: #bf1363;
-  transform: scale(
-    1.1
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.main-title {
+  margin-bottom: 0;
 }
 
 button.navbar-toggler {
@@ -357,7 +339,6 @@ div .carousel-indicators {
 
 /* ----------------- Footer ---------------- */
 
-/* part 3 of styling to keep footer at bottom of page */
 footer {
   position: fixed;
   bottom: 0;

@@ -11,21 +11,22 @@ function NavBar(props) {
       // Changed Navbar expand="lg" to Navbar expand="sm" and made it so that navbar button only appears on cellphone screen.
         <Navbar expand="sm">
         <Container className="nav-cont">
-          <Navbar.Brand href="about">Ahmed's Portfolio</Navbar.Brand>
+        {/* href="about" */}
+          <Navbar.Brand><p className="main-title">Ahmed's Portfolio</p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
             <Nav.Link className={currentSection === 'about'}>
-              <span onClick={() => setCurrentSection('about')}>About Me</span>
+              <span onClick={() => setCurrentSection('about')}>About</span>
             </Nav.Link>
             <Nav.Link className={currentSection === 'portfolio'}>
               <span onClick={() => setCurrentSection('portfolio')}>Portfolio</span>
             </Nav.Link>
-            <Nav.Link className={currentSection === 'contact'}>
-              <span onClick={() => setCurrentSection('contact')}>Contact</span>
-            </Nav.Link>
             <Nav.Link className={currentSection === 'resume'}>
               <span onClick={() => setCurrentSection('resume')}>Resume</span>
+            </Nav.Link>
+            <Nav.Link className={currentSection === 'contact'}>
+              <span onClick={() => setCurrentSection('contact')}>Contact</span>
             </Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -33,5 +34,5 @@ function NavBar(props) {
       </Navbar>
     )
 };
-
+// 1
 export default NavBar;
