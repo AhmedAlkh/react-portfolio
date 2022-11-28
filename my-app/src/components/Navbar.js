@@ -8,8 +8,8 @@ function NavBar(props) {
   const { currentSection, setCurrentSection } = props;
 
     return (
-      // Changed Navbar expand="lg" to Navbar expand="md" and made it so that navbar button only appears on cellphone screen.
-        <Navbar expand="md">
+      // Changed Navbar expand="lg" to Navbar expand="sm" and made it so that navbar button only appears on cellphone screen.
+        <Navbar expand="sm">
         <Container className="nav-cont">
           <Navbar.Brand href="about">Ahmed's Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
