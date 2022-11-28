@@ -11,7 +11,6 @@ function NavBar(props) {
       // Changed Navbar expand="lg" to Navbar expand="sm" and made it so that navbar button only appears on cellphone screen.
         <Navbar expand="sm">
         <Container className="nav-cont">
-        {/* href="about" */}
           <Navbar.Brand><p className="main-title">Ahmed's Portfolio</p></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -34,5 +33,4 @@ function NavBar(props) {
       </Navbar>
     )
 };
-// 1
 export default NavBar;

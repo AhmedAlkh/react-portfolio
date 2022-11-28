@@ -91,7 +91,7 @@ function Portfolio() {
   ];
 
   return (
-    <section>
+    <section className="portfolio-section">
       {/* <div className="center"> */}
         <h1 className="portfolio-title">Projects</h1>
       {/* </div> */}

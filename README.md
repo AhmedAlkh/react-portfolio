@@ -2,11 +2,9 @@
 
 ## To Do List
 - ~~~~~~ GENERAL ~~~~~~~
-- Change home route url to not say /about
 - when option is selected from drop down nav bar, it should return to closed position?
 
 - ~~~~~~ PORTFOLIO ~~~~~~~
-- Fix all styling on carousel
 - Screenshots are getting blurry when the screen is smaller?
 
 ## Portfolio must include
