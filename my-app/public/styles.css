@@ -112,6 +112,10 @@ div.container {
 
 /* ----------------- Portfolio ---------------- */
 
+.portfolio-section {
+  margin-bottom: 100px;
+}
+
 .portfolio-title {
     text-align: center;
     color: rgb(193, 210, 214);
