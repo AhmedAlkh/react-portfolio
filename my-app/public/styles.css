@@ -151,10 +151,13 @@ div.container {
 }
 
 .carousel-style {
-    width: 50%;
-    height: 200px;
     margin: auto;
     border-radius: 25px; 
+    object-fit: cover;
+    max-width: 60%;
+    min-width: 4rem;
+    /* aspect-ratio: 16/9; */
+    object-position: top;
 }
 
 .info-container {
@@ -163,7 +166,6 @@ div.container {
   padding: 2%;
   color: rgb(193, 210, 214);
   margin-top: 5px;
-  /* margin-top: 0!important; */
 }
 
 .app-link, .gh-link {

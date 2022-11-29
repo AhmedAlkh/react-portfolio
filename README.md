@@ -6,6 +6,7 @@
 
 - ~~~~~~ PORTFOLIO ~~~~~~~
 - Screenshots are getting blurry when the screen is smaller?
+- Resize all photos to be the same size
 
 ## Portfolio must include
 - About me page (COMPLETE!)

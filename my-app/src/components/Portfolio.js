@@ -8,8 +8,9 @@ function Portfolio() {
       key: "on-demand-crm",
       projectName: "On-Demand CRM",
       description:
-        "The On-Demand CRM app is used to input(and store), view and extract data on client profiles. Keep your list of potential and existing clients organized.",
-      screenShot: "crm.png",
+        "The On-Demand CRM app is used to input(and store), view and extract data on client profiles.",
+        // This was removed from end of description: Keep your list of potential and existing clients organized.
+      screenShot: "crm2.png",
       techUsed: [
         "html/css",
         "javascript",
@@ -27,7 +28,7 @@ function Portfolio() {
       projectName: "Tech Blog",
       description:
         "Developers can use Tech Blog to publish articles and blog posts, along with their thoughts and opinions.",
-      screenShot: "tech-blog.png",
+      screenShot: "tb.png",
       techUsed: [
         "html/css",
         "javascript",
@@ -45,7 +46,7 @@ function Portfolio() {
       projectName: "Global News Finder",
       description:
         "A tourists best friend. Select a country from the drop-down menu and the app will display information on that country.",
-      screenShot: "gnf.png",
+      screenShot: "gnf2.png",
       techUsed: ["html/css", "javascript", "jquery"],
       ghLink: "https://github.com/salmanghouse1/global-news-finder",
       appLink: "https://salmanghouse1.github.io/global-news-finder/",
@@ -55,7 +56,7 @@ function Portfolio() {
       projectName: "Weather Dashboard",
       description:
         "This is a weather dashboard that displays current weather and a five day forecast. Enter the name of a city to get the weather.",
-      screenShot: "weather-dash.png",
+      screenShot: "wd.png",
       techUsed: ["html", "css", "javascript"],
       ghLink: "https://github.com/AhmedAlkh/weather-dashboard",
       appLink: "https://ahmedalkh.github.io/weather-dashboard/",
@@ -64,8 +65,9 @@ function Portfolio() {
       key: "password-generator",
       projectName: "Password Generator",
       description:
-        "Random password generator app. User selects criteria for password(uppercase, lowercase, symbols, numbers, length) and a password is generated.",
-      screenShot: "pg.png",
+        "User selects criteria for password(uppercase, lowercase, symbols, numbers, length) and a password is generated.",
+        // This was removed from start of description: Random password generator app. 
+      screenShot: "pg2.png",
       techUsed: ["html", "css", "javascript"],
       ghLink: "https://github.com/AhmedAlkh/password-generator",
       appLink: "https://ahmedalkh.github.io/password-generator/",
@@ -74,8 +76,9 @@ function Portfolio() {
       key: "memestagram",
       projectName: "Memestagram",
       description:
-        "Memestagram is a visual platform. The purpose of this application is to enable users to share images with their audience.",
-      screenShot: "Memestagram.png",
+        "This social media platform is all about the memes!",
+        // Old description: Memestagram is a visual platform. The purpose of this application is to enable users to share images with their audience.
+      screenShot: "meme.png",
       techUsed: [
         "React",
         "Express",
