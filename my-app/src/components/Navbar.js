@@ -9,23 +9,23 @@ function NavBar(props) {
 
     return (
       // Changed Navbar expand="lg" to Navbar expand="sm" and made it so that navbar button only appears on cellphone screen.
-        <Navbar expand="sm">
+        <Navbar collapseOnSelect expand="sm">
         <Container className="nav-cont">
           <Navbar.Brand><p className="main-title">Ahmed's Portfolio</p></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-            <Nav.Link className={currentSection === 'about'}>
-              <span onClick={() => setCurrentSection('about')}>About</span>
+            <Nav.Link href="#" className={currentSection === 'about'}>
+              <span className="unactive-link" onClick={() => setCurrentSection('about')}>About</span>
             </Nav.Link>
-            <Nav.Link className={currentSection === 'portfolio'}>
-              <span onClick={() => setCurrentSection('portfolio')}>Portfolio</span>
+            <Nav.Link href="#" className={currentSection === 'portfolio'}>
+              <span className="unactive-link" onClick={() => setCurrentSection('portfolio')}>Portfolio</span>
             </Nav.Link>
-            <Nav.Link className={currentSection === 'resume'}>
-              <span onClick={() => setCurrentSection('resume')}>Resume</span>
+            <Nav.Link href="#" className={currentSection === 'resume'}>
+              <span className="unactive-link" onClick={() => setCurrentSection('resume')}>Resume</span>
             </Nav.Link>
-            <Nav.Link className={currentSection === 'contact'}>
-              <span onClick={() => setCurrentSection('contact')}>Contact</span>
+            <Nav.Link href="#" className={currentSection === 'contact'}>
+              <span className="unactive-link" onClick={() => setCurrentSection('contact')}>Contact</span>
             </Nav.Link>
             </Nav>
           </Navbar.Collapse>
