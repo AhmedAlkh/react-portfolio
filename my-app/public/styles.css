@@ -19,17 +19,17 @@ body::after {
 /* ----------------- Header ---------------- */
 
 header {
-    position: sticky; 
-    top: 0;
-    z-index: 100;
-    background-color: #010f54;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #1f5bcc;
 }
 
 /* ----------------- Navbar ---------------- */
 
 .navbar-brand {
-  font-size: 175%!important;
-  color: rgb(193, 210, 214)!important;
+  font-size: 175% !important;
+  color: rgb(193, 210, 214) !important;
 }
 
 .main-title {
@@ -122,7 +122,7 @@ a.nav-link.active:active {
 
 div.container {
   margin-left: 0%;
-  margin-right: 0%!important; 
+  margin-right: 0% !important;
 }
 
 /* ----------------- About ---------------- */
@@ -139,10 +139,10 @@ div.container {
 }
 
 .about-text {
-  background-color: #010f54;
+  background-color: #1f5bcc;
   font-size: 1.2rem;
   padding: 3%;
-  border-radius: 15px 50px; 
+  border-radius: 15px 50px;
   margin-bottom: 160px;
   /* text-align: center; */
 }
@@ -157,7 +157,6 @@ div.container {
   width: 40%;
 }
 
-
 /* ----------------- Portfolio ---------------- */
 
 .portfolio-section {
@@ -165,14 +164,14 @@ div.container {
 }
 
 .portfolio-title {
-    text-align: center;
-    color: rgb(193, 210, 214);
-    margin-top: 50px;
+  text-align: center;
+  color: rgb(193, 210, 214);
+  margin-top: 50px;
 }
 
 .center {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* ----------------- Carousel ---------------- */
@@ -182,7 +181,7 @@ div.container {
 }
 
 .carousel-container {
-  background-color: #010f54;
+  background-color: #1f5bcc;
   z-index: 10;
 }
 
@@ -197,53 +196,52 @@ div.container {
   /* background-color: red; */
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: #bf1363;
   border-radius: 20%;
 }
 
 .carousel-style {
-    margin: auto;
-    border-radius: 25px; 
-    object-fit: cover;
-    max-width: 60%;
-    min-width: 4rem;
-    /* aspect-ratio: 16/9; */
-    object-position: top;
+  margin: auto;
+  border-radius: 25px;
+  object-fit: cover;
+  max-width: 60%;
+  min-width: 4rem;
+  /* aspect-ratio: 16/9; */
+  object-position: top;
 }
 
 .info-container {
-  background-color: #010f54;
-  border-radius: 25px; 
+  background-color: #1f5bcc;
+  border-radius: 25px;
   padding: 2%;
   color: rgb(193, 210, 214);
   margin-top: 5px;
 }
 
-.app-link, .gh-link {
+.app-link,
+.gh-link {
   width: 150px;
   margin-top: 5px;
-  transition: transform 0.2s!important; /* Animation for zoom in effect */
+  transition: transform 0.2s !important; /* Animation for zoom in effect */
 }
 
 .app-link:hover {
-  background-color: #bf1363!important;
-  transform: scale(
-    1.1
-  )!important;
+  background-color: #bf1363 !important;
+  transform: scale(1.1) !important;
 }
 
 .gh-link:hover {
-  background-color: #bf1363!important;
-  transform: scale(
-    1.1
-  )!important;
+  background-color: #bf1363 !important;
+  transform: scale(1.1) !important;
 }
 
-.btn, .btn-primary {
-  background-color: #133dec!important;
-  color: rgb(193, 210, 214)!important;
-  border: none!important;
+.btn,
+.btn-primary {
+  background-color: #133dec !important;
+  color: rgb(193, 210, 214) !important;
+  border: none !important;
 }
 
 .btn-icon {
@@ -254,8 +252,8 @@ div .carousel-indicators {
   margin: 0 35% 0 35%;
 }
 
-.carousel-indicators{
-  background-color: #010f54;
+.carousel-indicators {
+  background-color: #1f5bcc;
   border-radius: 25px 25px 0px 0px;
 }
 
@@ -274,70 +272,67 @@ div .carousel-indicators {
 .contact-container {
   margin: auto;
   width: 25rem;
-  background-color: #010f54;
+  background-color: #1f5bcc;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 25px;
 }
-  
-  form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-    font-size: 16px; 
-  }
-    input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-    }
 
-    input:focus {
-      border: 2px solid rgba(0, 206, 158, 1);
-    }
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+}
+input {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
 
-    textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-    }
-      textarea:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    
-    label {
-      margin-top: 1rem;
-    }
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      background: rgb(249, 105, 14);
-      color: white;
-      border: none;
-    }
+input:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
 
-    .contact-btn {
-      background-color: #133dec!important;
-      transition: transform 0.2s!important; /* Animation for zoom in effect */
-    }
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+textarea:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
 
-    .contact-btn:hover {
-      background-color: #bf1363!important;
-      transform: scale(
-        1.05
-      )!important;
-    }
-  
+label {
+  margin-top: 1rem;
+}
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: rgb(249, 105, 14);
+  color: white;
+  border: none;
+}
+
+.contact-btn {
+  background-color: #133dec !important;
+  transition: transform 0.2s !important; /* Animation for zoom in effect */
+}
+
+.contact-btn:hover {
+  background-color: #bf1363 !important;
+  transform: scale(1.05) !important;
+}
 
 /* ----------------- Resume ---------------- */
 
@@ -358,14 +353,12 @@ div .carousel-indicators {
   width: 170px;
   margin-top: 5px;
   margin-bottom: 5px;
-  transition: transform 0.2s!important; /* Animation for zoom in effect */
+  transition: transform 0.2s !important; /* Animation for zoom in effect */
 }
 
 .resume-btn:hover {
-  background-color: #bf1363!important;
-  transform: scale(
-    1.1
-  )!important;
+  background-color: #bf1363 !important;
+  transform: scale(1.1) !important;
 }
 
 .resume-screenshots {
@@ -383,7 +376,7 @@ div .carousel-indicators {
 .skills-container {
   margin-top: 15px;
   margin-bottom: 75px;
-  background-color: #010f54;
+  background-color: #1f5bcc;
   display: inline-block;
   width: 70%;
   border-radius: 25px;
@@ -391,7 +384,7 @@ div .carousel-indicators {
 
 .skills-title {
   display: flex;
-	justify-content: center;
+  justify-content: center;
 }
 
 .skills-list {
@@ -415,7 +408,7 @@ footer {
   width: 100%;
   height: 4rem;
   text-align: center;
-  background-color: #010f54;
+  background-color: #1f5bcc;
   margin-top: auto;
   z-index: 999;
 }
@@ -492,7 +485,9 @@ footer {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.wobble-vertical-on-hover:hover, .wobble-vertical-on-hover:focus, .wobble-vertical-on-hover:active {
+.wobble-vertical-on-hover:hover,
+.wobble-vertical-on-hover:focus,
+.wobble-vertical-on-hover:active {
   -webkit-animation-name: wobble-vertical-on-hover;
   animation-name: wobble-vertical-on-hover;
   -webkit-animation-duration: 1s;

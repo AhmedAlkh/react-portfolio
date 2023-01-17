@@ -9,7 +9,7 @@ function Portfolio() {
       projectName: "On-Demand CRM",
       description:
         "The On-Demand CRM app is used to input(and store), view and extract data on client profiles.",
-        // This was removed from end of description: Keep your list of potential and existing clients organized.
+      // This was removed from end of description: Keep your list of potential and existing clients organized.
       screenShot: "crm2.png",
       techUsed: [
         "html/css",
@@ -25,21 +25,13 @@ function Portfolio() {
     },
     {
       key: "tech-blog",
-      projectName: "Tech Blog",
+      projectName: "Photos by Alaa",
       description:
-        "Developers can use Tech Blog to publish articles and blog posts, along with their thoughts and opinions.",
-      screenShot: "tb.png",
-      techUsed: [
-        "html/css",
-        "javascript",
-        "node.js",
-        "express",
-        "handlebars",
-        "mysql/mysql2",
-        "sequelize",
-      ],
-      ghLink: "https://github.com/AhmedAlkh/Tech-blog",
-      appLink: "https://still-cove-68689.herokuapp.com/",
+        "Website built to showcase my sisters photography work and link to social medias. A functional contact form is included.",
+      screenShot: "pbav3-screenshot.png",
+      techUsed: ["html/css", "bootstrap", "javascript"],
+      ghLink: "https://github.com/AhmedAlkh/pbav3",
+      appLink: "https://photosbyalaa.netlify.app/",
     },
     {
       key: "global-news",
@@ -66,7 +58,7 @@ function Portfolio() {
       projectName: "Password Generator",
       description:
         "User selects criteria for password(uppercase, lowercase, symbols, numbers, length) and a password is generated.",
-        // This was removed from start of description: Random password generator app. 
+      // This was removed from start of description: Random password generator app.
       screenShot: "pg2.png",
       techUsed: ["html", "css", "javascript"],
       ghLink: "https://github.com/AhmedAlkh/password-generator",
@@ -75,9 +67,8 @@ function Portfolio() {
     {
       key: "memestagram",
       projectName: "Memestagram",
-      description:
-        "This social media platform is all about the memes!",
-        // Old description: Memestagram is a visual platform. The purpose of this application is to enable users to share images with their audience.
+      description: "This social media platform is all about the memes!",
+      // Old description: Memestagram is a visual platform. The purpose of this application is to enable users to share images with their audience.
       screenShot: "meme.png",
       techUsed: [
         "React",
@@ -96,10 +87,10 @@ function Portfolio() {
   return (
     <section className="portfolio-section">
       {/* <div className="center"> */}
-        <h1 className="portfolio-title">Projects</h1>
+      <h1 className="portfolio-title">Projects</h1>
       {/* </div> */}
 
-	  <div className="carousel-container">
+      <div className="carousel-container">
         <Carousel slide>
           {projects.map((project) => {
             return (
